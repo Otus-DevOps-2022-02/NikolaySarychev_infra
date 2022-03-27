@@ -6,6 +6,8 @@ echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu xenial/mongod
 echo "---Trying to update the index of available packages---"
 sudo apt-get update
 
+sudo apt-get install apt-transport-https ca-certificates
+
 echo "---Trying to install install MongoDB---"
 if sudo apt-get install -y mongodb-org
 then
