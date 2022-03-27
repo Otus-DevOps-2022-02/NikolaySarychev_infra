@@ -19,7 +19,7 @@ sudo systemctl start mongod
 
 
 echo "---Trying to add MongoDB to autorun---"
-sudo systemctl start mongod
+sudo systemctl enable mongod
 
 echo "---Сheck status MongoDB service---"
 sudo systemctl status mongod
