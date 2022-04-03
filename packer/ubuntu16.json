@@ -20,12 +20,12 @@
     "provisioners": [
         {
             "type": "shell",
-            "script": "/Users/nsarycev/Documents/OTUS/NikolaySarychev_infra/packer/config/install_ruby.sh",
+            "script": "packer/config/install_ruby.sh",
             "execute_command": "sudo {{.Path}}"
         },
         {
             "type": "shell",
-            "script": "/Users/nsarycev/Documents/OTUS/NikolaySarychev_infra/packer/config/install_mongodb.sh",
+            "script": "packer/config/install_mongodb.sh",
             "execute_command": "sudo {{.Path}}"
         }
     ]
