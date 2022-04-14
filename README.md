@@ -30,7 +30,7 @@ Host someinternalserver
 
 3. VPC config:
 bastion_IP = 51.250.72.188
-someinternalhost_IP = 10.156.0.3
+someinternalhost_IP = 10.128.0.19
 
 ## PR checklist
  - [*] Выставил label с номером домашнего задания
