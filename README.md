@@ -29,8 +29,8 @@ Host someinternalserver
 3) ssh someinternalhost ----use this command in to Terminal
 
 3. VPC config:
-bastion_IP = 51.250.72.150
-someinternalhost_IP = 10.128.0.30
+bastion_IP = 51.250.72.188
+someinternalhost_IP = 10.156.0.3
 
 ## PR checklist
  - [*] Выставил label с номером домашнего задания
