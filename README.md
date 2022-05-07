@@ -1,7 +1,7 @@
 # NikolaySarychev_infra
 NikolaySarychev Infra repository
 
-# Выполнено ДЗ №5
+# Выполнено ДЗ №6
  - [*] Основное ДЗ
  - [ ] Задание со *
 
