@@ -1,5 +1,7 @@
 #!/bin/bash
 
+sleep 40
+
 apt-get install apt-transport-https ca-certificates
 
 echo "---Trying to add keys and repos MongoDB---"
