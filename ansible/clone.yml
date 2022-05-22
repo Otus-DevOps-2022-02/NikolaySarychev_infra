@@ -1,6 +1,6 @@
 ---
 - name: Clone
-  hosts: app
+  hosts: external_ip_address_app
   tasks:
     - name: Clone repo
       git:
