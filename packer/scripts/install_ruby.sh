@@ -7,8 +7,9 @@
 #echo "---Connected---"
 
 echo "---Apt update---"
-apt update
+apt-get update
 
+sleep 10
 echo "---Trying to install Ruby and bundler---"
-apt install -y ruby-full ruby-bundler build-essential
+apt-get install -y ruby-full ruby-bundler build-essential
 echo "---Ruby and bundler istalled---"

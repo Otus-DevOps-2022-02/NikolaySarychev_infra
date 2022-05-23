@@ -1,0 +1,12 @@
+{
+    "external_ip_address_app": {
+        "hosts": {
+            "51.250.79.60"
+        }
+    },
+    "external_ip_address_db": {
+        "hosts": {
+            "51.250.68.196"
+        }
+    }
+}
